@@ -4,6 +4,8 @@ import subprocess
 import os
 import sys
 
+print(sys.executable)
+
 # Ensure requests is installed
 try:
     import requests
