@@ -3,7 +3,25 @@ import json
 import subprocess
 import os
 import sys
+import subprocess
 
+# Print Python info
+print(f"🔍 Python Executable: {sys.executable}")
+print(f"🔍 Python Version: {sys.version}")
+
+# Check installed packages
+print("🔍 Installed packages:")
+os.system(f"{sys.executable} -m pip list")
+
+# Check if 'bs4' is installed
+try:
+    import bs4
+    print("✅ 'bs4' is already installed.")
+except ModuleNotFoundError:
+    print("❌ 'bs4' module NOT found!")
+
+# Check sys.path (Python’s search path)
+print(f"🔍 sys.path: {sys.path}")
 print(sys.executable)
 
 # Ensure requests is installed
