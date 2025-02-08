@@ -5,6 +5,10 @@ import os
 import sys
 import subprocess
 
+if st.button("🔍 Check Installed Packages"):
+    installed_packages = subprocess.run(["pip", "list"], capture_output=True, text=True)
+    st.text(installed_packages.stdout)
+    
 # Print Python info
 print(f"🔍 Python Executable: {sys.executable}")
 print(f"🔍 Python Version: {sys.version}")
