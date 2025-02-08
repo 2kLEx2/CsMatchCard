@@ -51,7 +51,7 @@ def fetch_liquipedia_raw():
 def push_to_github():
     """Automatically commit and push the updated `matches.json` file to GitHub."""
     try:
-        repo_url = "https://github.com/YOUR_USERNAME/YOUR_REPO.git"  # Change this to your GitHub repo
+        repo_url = "https://github.com/2kLEx2/CsMatchCard"  # Change this to your GitHub repo
 
         # Configure Git
         subprocess.run(["git", "config", "--global", "user.email", "you@example.com"])
