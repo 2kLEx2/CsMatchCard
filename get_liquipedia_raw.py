@@ -1,6 +1,8 @@
 import subprocess
 import sys
-
+import os
+os.system(f"{sys.executable} -m pip install requests")
+import requests
 # Ensure requests is installed before import
 try:
     import requests
