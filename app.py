@@ -68,9 +68,10 @@ elif page == "📸 Generate Match Card":
     if st.button("🎨 Generate Match Card"):
         subprocess.run(["python", "generate_match_card.py"])
         
-        if os.path.exists("match_preview.png"):
+        image_path = os.path.abspath("match_preview.png")  # Ensure absolute path
+        if os.path.exists(image_path):
             st.success("✅ Match Card Generated! Download below.")
-            with open("match_preview.png", "rb") as file:
+            with open(image_path, "rb") as file:
                 btn = st.download_button(
                     label="📥 Download Match Card",
                     data=file,
@@ -78,4 +79,4 @@ elif page == "📸 Generate Match Card":
                     mime="image/png"
                 )
         else:
-            st.error("❌ Match card image not found.")
+            st.error("❌ Match card image not found. Try regenerating.")
