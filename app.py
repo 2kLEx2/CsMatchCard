@@ -2,6 +2,17 @@ import streamlit as st
 import json
 import subprocess
 import os
+import sys
+
+# Ensure requests is installed
+try:
+    import requests
+except ModuleNotFoundError:
+    print("⚠️ requests module not found! Installing now...")
+    subprocess.run([sys.executable, "-m", "pip", "install", "requests"])
+    import requests  # Try importing again after install
+
+import streamlit as st
 
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
