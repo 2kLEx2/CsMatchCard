@@ -7,22 +7,18 @@ import sys
 # 🚀 Set page config FIRST (Fix for Streamlit error)
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
-# 🔍 Debugging Section (Optional - Click button to check installed packages)
-if st.button("🔍 Check Installed Packages"):
-    installed_packages = subprocess.run(["pip", "list"], capture_output=True, text=True)
-    st.text(installed_packages.stdout)
-
 # ✅ Ensure Required Packages Are Installed
 def ensure_package_installed(package_name):
-    """Installs a package if it's missing."""
+    """Ensures a package is installed in the correct environment."""
     try:
         __import__(package_name)
     except ModuleNotFoundError:
         print(f"⚠️ {package_name} module not found! Installing now...")
-        subprocess.run([sys.executable, "-m", "pip", "install", package_name])
-        __import__(package_name)  # Try importing again after install
+        subprocess.run([sys.executable, "-m", "pip", "install", "--no-cache-dir", "--force-reinstall", package_name])
+        sys.path.append("/home/adminuser/venv/lib/python3.10/site-packages")  # Ensure Python looks in the right place
+        __import__(package_name)  # Try importing again
 
-# Ensure necessary packages
+# 🚨 Ensure Packages Exist
 ensure_package_installed("requests")
 ensure_package_installed("beautifulsoup4")
 ensure_package_installed("lxml")
