@@ -31,6 +31,7 @@ elif page == "🎯 Select Matches":
             st.warning("⚠️ No matches found. Please fetch matches first!")
     except FileNotFoundError:
         st.error("❌ `matches.json` not found! Run `fetch_matches.py` first.")
+        matches = []
 
     # Search Bar
     search_query = st.text_input("🔍 Search for a match...")
@@ -43,12 +44,13 @@ elif page == "🎯 Select Matches":
     # Store selections
     selected_matches = []
 
-    # Display checkboxes for match selection
+    # Display checkboxes for match selection with unique keys
     if filtered_matches:
-        for match in filtered_matches:
+        for i, match in enumerate(filtered_matches):
             match_text = f"{match['time']} - {match['team1']} vs {match['team2']} ({match['tournament']})"
-            if st.checkbox(match_text):
+            if st.checkbox(match_text, key=f"match_{i}"):  # Ensure unique key
                 selected_matches.append(match)
+
     else:
         st.warning("⚠️ No matches available. Try fetching data first!")
 
