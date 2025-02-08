@@ -15,13 +15,25 @@ def ensure_package_installed(package_name):
     except ModuleNotFoundError:
         print(f"⚠️ {package_name} module not found! Installing now...")
         subprocess.run([sys.executable, "-m", "pip", "install", "--no-cache-dir", "--force-reinstall", package_name])
-        sys.path.append("/home/adminuser/venv/lib/python3.10/site-packages")  # Ensure Python looks in the right place
+        
+        # 🚨 Explicitly add site-packages path for Python to recognize it
+        package_path = f"/home/adminuser/venv/lib/python3.10/site-packages"
+        if package_path not in sys.path:
+            sys.path.append(package_path)
+
         __import__(package_name)  # Try importing again
 
 # 🚨 Ensure Packages Exist
 ensure_package_installed("requests")
 ensure_package_installed("beautifulsoup4")
 ensure_package_installed("lxml")
+
+# ✅ Debug: Print sys.path to check where Python is looking
+print(f"🔍 sys.path: {sys.path}")
+print(f"🔍 Python Executable: {sys.executable}")
+print(f"🔍 Installed Packages:")
+os.system(f"{sys.executable} -m pip list")
+
 
 # 🎮 Sidebar Navigation
 page = st.sidebar.radio("🔍 Navigate", ["🏠 Home", "🎯 Select Matches", "📸 Generate Match Card"])
