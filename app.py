@@ -8,30 +8,37 @@ import sys
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
 # ✅ Function to Ensure Required Packages Are Installed
-def ensure_package_installed(package_name):
-    """Ensures a package is installed in the correct environment."""
+def ensure_package_installed(package_name, module_name=None):
+    """
+    Ensures a package is installed and can be imported.
+    - package_name: The name used in pip (e.g., 'beautifulsoup4').
+    - module_name: The actual import name (e.g., 'bs4' for 'beautifulsoup4').
+    """
+    module_name = module_name or package_name  # Handle cases where import name differs
+
     try:
-        __import__(package_name)
+        __import__(module_name)
     except ModuleNotFoundError:
-        print(f"⚠️ {package_name} module not found! Installing now...")
+        print(f"⚠️ {module_name} module not found! Installing {package_name}...")
 
         # 🛠 Use --user to avoid permission errors
         subprocess.run([sys.executable, "-m", "pip", "install", "--user", package_name])
 
-        # ✅ Add site-packages path for proper module recognition
+        # ✅ Ensure site-packages path is added
         package_path = os.path.expanduser("~/.local/lib/python3.10/site-packages")
         if package_path not in sys.path:
             sys.path.append(package_path)
 
-        # 🚨 Retry importing the package after installation
+        # 🚨 Try importing again
         try:
-            __import__(package_name)
+            __import__(module_name)
+            print(f"✅ {module_name} installed successfully!")
         except ModuleNotFoundError:
             print(f"❌ Failed to install {package_name}. Check permissions or dependencies.")
 
 # 🚨 Ensure Required Packages Exist
 ensure_package_installed("requests")
-ensure_package_installed("beautifulsoup4")
+ensure_package_installed("beautifulsoup4", "bs4")  # Ensure 'bs4' works
 ensure_package_installed("lxml")
 
 # ✅ Debugging Information
@@ -48,14 +55,14 @@ if page == "🏠 Home":
     st.title("🎮 Match Card Generator")
 
     if st.button("1️⃣ Fetch Liquipedia Data"):
-        result = subprocess.run(["python", "get_liquipedia_raw.py"], capture_output=True, text=True)
+        result = subprocess.run([sys.executable, "get_liquipedia_raw.py"], capture_output=True, text=True)
         if result.returncode == 0:
             st.success("✅ Data Fetched Successfully!")
         else:
             st.error(f"❌ Error fetching data:\n{result.stderr}")
 
     if st.button("2️⃣ Extract Matches"):
-        result = subprocess.run(["python", "fetch_matches.py"], capture_output=True, text=True)
+        result = subprocess.run([sys.executable, "fetch_matches.py"], capture_output=True, text=True)
         if result.returncode == 0:
             st.success("✅ Matches Extracted Successfully!")
         else:
@@ -106,7 +113,7 @@ elif page == "📸 Generate Match Card":
     st.title("📸 Generate Match Card")
 
     if st.button("🎨 Generate Match Card"):
-        result = subprocess.run(["python", "generate_match_card.py"], capture_output=True, text=True)
+        result = subprocess.run([sys.executable, "generate_match_card.py"], capture_output=True, text=True)
         if result.returncode == 0:
             image_path = os.path.abspath("match_preview.png")  # Ensure absolute path
             if os.path.exists(image_path):
