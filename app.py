@@ -4,6 +4,13 @@ import subprocess
 import os
 import sys
 
+# Ensure beautifulsoup4 is installed
+try:
+    import bs4
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--force-reinstall", "beautifulsoup4"])
+    import bs4  # Import again after installation
+    
 # 🚀 Set page config FIRST (Fix for Streamlit error)
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
