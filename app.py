@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import subprocess
+import os
 
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
@@ -66,4 +67,15 @@ elif page == "📸 Generate Match Card":
 
     if st.button("🎨 Generate Match Card"):
         subprocess.run(["python", "generate_match_card.py"])
-        st.success("✅ Match Card Generated! Check `match_preview.png`")
+        
+        if os.path.exists("match_preview.png"):
+            st.success("✅ Match Card Generated! Download below.")
+            with open("match_preview.png", "rb") as file:
+                btn = st.download_button(
+                    label="📥 Download Match Card",
+                    data=file,
+                    file_name="match_preview.png",
+                    mime="image/png"
+                )
+        else:
+            st.error("❌ Match card image not found.")
