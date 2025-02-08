@@ -1,4 +1,14 @@
-import requests
+import subprocess
+import sys
+
+# Ensure requests is installed before import
+try:
+    import requests
+except ModuleNotFoundError:
+    print("⚠️ 'requests' module not found! Installing now...")
+    subprocess.run([sys.executable, "-m", "pip", "install", "requests"])
+    import requests  # Retry import after installing
+
 import json
 
 # Liquipedia API endpoint
