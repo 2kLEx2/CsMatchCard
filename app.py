@@ -23,12 +23,14 @@ if page == "🏠 Home":
 elif page == "🎯 Select Matches":
     st.title("🎯 Select Matches")
 
-    # Load match data
+    # Load match data with error handling
     try:
         with open("matches.json", "r", encoding="utf-8") as file:
             matches = json.load(file)
+        if not matches:
+            st.warning("⚠️ No matches found. Please fetch matches first!")
     except FileNotFoundError:
-        matches = []
+        st.error("❌ `matches.json` not found! Run `fetch_matches.py` first.")
 
     # Search Bar
     search_query = st.text_input("🔍 Search for a match...")
@@ -42,10 +44,13 @@ elif page == "🎯 Select Matches":
     selected_matches = []
 
     # Display checkboxes for match selection
-    for match in filtered_matches:
-        match_text = f"{match['time']} - {match['team1']} vs {match['team2']} ({match['tournament']})"
-        if st.checkbox(match_text):
-            selected_matches.append(match)
+    if filtered_matches:
+        for match in filtered_matches:
+            match_text = f"{match['time']} - {match['team1']} vs {match['team2']} ({match['tournament']})"
+            if st.checkbox(match_text):
+                selected_matches.append(match)
+    else:
+        st.warning("⚠️ No matches available. Try fetching data first!")
 
     # Save selected matches
     if st.button("✅ Save Selected Matches"):
