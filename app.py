@@ -4,43 +4,41 @@ import subprocess
 import os
 import sys
 
-# Ensure beautifulsoup4 is installed
-try:
-    import bs4
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--force-reinstall", "beautifulsoup4"])
-    import bs4  # Import again after installation
-    
-# 🚀 Set page config FIRST (Fix for Streamlit error)
+# 🚀 Set Streamlit page configuration
 st.set_page_config(page_title="Match Card Generator", layout="wide")
 
-# ✅ Ensure Required Packages Are Installed
+# ✅ Function to Ensure Required Packages Are Installed
 def ensure_package_installed(package_name):
     """Ensures a package is installed in the correct environment."""
     try:
         __import__(package_name)
     except ModuleNotFoundError:
         print(f"⚠️ {package_name} module not found! Installing now...")
-        subprocess.run([sys.executable, "-m", "pip", "install", "--no-cache-dir", "--force-reinstall", package_name])
-        
-        # 🚨 Explicitly add site-packages path for Python to recognize it
-        package_path = f"/home/adminuser/venv/lib/python3.10/site-packages"
+
+        # 🛠 Use --user to avoid permission errors
+        subprocess.run([sys.executable, "-m", "pip", "install", "--user", package_name])
+
+        # ✅ Add site-packages path for proper module recognition
+        package_path = os.path.expanduser("~/.local/lib/python3.10/site-packages")
         if package_path not in sys.path:
             sys.path.append(package_path)
 
-        __import__(package_name)  # Try importing again
+        # 🚨 Retry importing the package after installation
+        try:
+            __import__(package_name)
+        except ModuleNotFoundError:
+            print(f"❌ Failed to install {package_name}. Check permissions or dependencies.")
 
-# 🚨 Ensure Packages Exist
+# 🚨 Ensure Required Packages Exist
 ensure_package_installed("requests")
 ensure_package_installed("beautifulsoup4")
 ensure_package_installed("lxml")
 
-# ✅ Debug: Print sys.path to check where Python is looking
+# ✅ Debugging Information
 print(f"🔍 sys.path: {sys.path}")
 print(f"🔍 Python Executable: {sys.executable}")
 print(f"🔍 Installed Packages:")
-os.system(f"{sys.executable} -m pip list")
-
+subprocess.run([sys.executable, "-m", "pip", "list"])
 
 # 🎮 Sidebar Navigation
 page = st.sidebar.radio("🔍 Navigate", ["🏠 Home", "🎯 Select Matches", "📸 Generate Match Card"])
