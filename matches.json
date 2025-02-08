@@ -1,0 +1,2099 @@
+[
+  {
+    "team1": "NAVI",
+    "team2": "Spirit",
+    "score": "0:1(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3f/Natus_Vincere_2021_lightmode.png/57px-Natus_Vincere_2021_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/66/Team_Spirit_2022_lightmode.png/43px-Team_Spirit_2022_lightmode.png"
+  },
+  {
+    "team1": "Legacy",
+    "team2": "MIBR",
+    "score": "0:1(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/85/MIBR_2018_lightmode.png/100px-MIBR_2018_lightmode.png"
+  },
+  {
+    "team1": "NVRMR",
+    "team2": "TAC",
+    "score": "0:0(Bo1)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/48/NEVERMORE_lightmode.png/44px-NEVERMORE_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "TNL",
+    "team2": "OG",
+    "score": "0:0(Bo1)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:35:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "Get Info",
+    "team2": "BOSS",
+    "score": "0:0(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/92/Boss_CS2_allmode.png/100px-Boss_CS2_allmode.png"
+  },
+  {
+    "team1": "ALASKA",
+    "team2": "Apogee",
+    "score": "0:0(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/90/ALASKA_allmode.png/45px-ALASKA_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6e/Betclic_Apogee_Esports_lightmode.png/53px-Betclic_Apogee_Esports_lightmode.png"
+  },
+  {
+    "team1": "Partyz",
+    "team2": "MIGHT",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ef/Party_Astronauts_2020_lightmode.png/63px-Party_Astronauts_2020_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/b0/MIGHT_2025_lightmode.png/42px-MIGHT_2025_lightmode.png"
+  },
+  {
+    "team1": "M80",
+    "team2": "BNC",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/5c/M80_Esports_2024_lightmode.png/52px-M80_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Vagrants",
+    "team2": "ImmPeek",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e6/Immigrants_Peek_allmode.png/100px-Immigrants_Peek_allmode.png"
+  },
+  {
+    "team1": "Mythic",
+    "team2": "Alter Iron",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/b1/Mythic_allmode.png/48px-Mythic_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/d9/Alter_Iron_Club_lightmode.png/47px-Alter_Iron_Club_lightmode.png"
+  },
+  {
+    "team1": "Chill Guys",
+    "team2": "Exceritus",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/01/Chill_Guys_lightmode.png/100px-Chill_Guys_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/d4/Exceritus_allmode.png/40px-Exceritus_allmode.png"
+  },
+  {
+    "team1": "InControl",
+    "team2": "Fly RED",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/2/28/InControl_2024_allmode.png/57px-InControl_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c5/FlyQuest_RED_2023_allmode.png/51px-FlyQuest_RED_2023_allmode.png"
+  },
+  {
+    "team1": "LCL",
+    "team2": "TdVSM",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Peak Ac.",
+    "team2": "TdKG",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "pug",
+    "team2": "NLegacy",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "NG Ac.",
+    "team2": "VELOX.AR",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/ab/New_Generation_Academy_allmode.png/50px-New_Generation_Academy_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/f6/VELOX_allmode.png/72px-VELOX_allmode.png"
+  },
+  {
+    "team1": "LAG",
+    "team2": "CCoop",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/17/LAG_Gaming_US_lightmode.png/80px-LAG_Gaming_US_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/ab/Chicken_Coop_Esports_2024_allmode.png/46px-Chicken_Coop_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "0:0(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "Marsborne",
+    "team2": "MCS",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 20:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/1a/Marsborne_logo_allmode.png/42px-Marsborne_logo_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/MCS_Gaming_allmode.png/47px-MCS_Gaming_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "paiN",
+    "team2": "RED",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6f/PaiN_Gaming_2023_lightmode.png/76px-PaiN_Gaming_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3b/Red_Canids_allmode.png/57px-Red_Canids_allmode.png"
+  },
+  {
+    "team1": "Imperial",
+    "team2": "KR\u00dc",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/93/Imperial_Esports_2022_allmode.png/44px-Imperial_Esports_2022_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/bf/KRU_Esports_allmode.png/47px-KRU_Esports_allmode.png"
+  },
+  {
+    "team1": "Nitro",
+    "team2": "Galorys",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c2/Nitro.GG_lightmode.png/48px-Nitro.GG_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/35/Galorys_2023_allmode.png/27px-Galorys_2023_allmode.png"
+  },
+  {
+    "team1": "BESTIA",
+    "team2": "ODDIK",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/BESTIA_lightmode.png/42px-BESTIA_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/ODDIK_allmode.png/50px-ODDIK_allmode.png"
+  },
+  {
+    "team1": "Legacy",
+    "team2": "LCL",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "BACK",
+    "team2": "Akimbo",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/a1/Akimbo_Esports_allmode.png/52px-Akimbo_Esports_allmode.png"
+  },
+  {
+    "team1": "Partyz",
+    "team2": "Chill Guys",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ef/Party_Astronauts_2020_lightmode.png/63px-Party_Astronauts_2020_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/01/Chill_Guys_lightmode.png/100px-Chill_Guys_lightmode.png"
+  },
+  {
+    "team1": "Get Info",
+    "team2": "Marsborne",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1a/Marsborne_logo_allmode.png/42px-Marsborne_logo_allmode.png"
+  },
+  {
+    "team1": "Nouns",
+    "team2": "Vagrants",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ea/Nouns_Esports_CSGO_allmode.png/55px-Nouns_Esports_CSGO_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "NRG",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 02:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/NRG_2024_lightmode.png/100px-NRG_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "DogEvil",
+    "team2": "Housebets",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/8/8d/DogEvil_2025_allmode.png/35px-DogEvil_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/Housebets_icon_allmode.png/49px-Housebets_icon_allmode.png"
+  },
+  {
+    "team1": "Shika",
+    "team2": "AoW",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a2/Shika_2025_allmode.png/91px-Shika_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/73/The_Art_of_War_allmode.png/54px-The_Art_of_War_allmode.png"
+  },
+  {
+    "team1": "Rooster",
+    "team2": "DXA",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3d/Rooster_allmode.png/40px-Rooster_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/dd/DXA_Esports_lightmode.png/100px-DXA_Esports_lightmode.png"
+  },
+  {
+    "team1": "CW",
+    "team2": "Mindfreak",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/71/CW_allmode.png/50px-CW_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/10/Mindfreak_allmode.png/37px-Mindfreak_allmode.png"
+  },
+  {
+    "team1": "RA",
+    "team2": "JiJieHao",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/cd/Rare_Atom_2024_allmode.png/55px-Rare_Atom_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/67/JiJieHao_allmode.png/55px-JiJieHao_allmode.png"
+  },
+  {
+    "team1": "UR",
+    "team2": "GDR",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/Unsettled_Resentment_2025_allmode.png/50px-Unsettled_Resentment_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/4e/Gods_Reign_2022_allmode.png/42px-Gods_Reign_2022_allmode.png"
+  },
+  {
+    "team1": "SemperFi",
+    "team2": "JSwing",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/f4/Just_Swing_2025_allmode.png/55px-Just_Swing_2025_allmode.png"
+  },
+  {
+    "team1": "Eruption",
+    "team2": "Believe",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ee/Eruption_2023_lightmode.png/34px-Eruption_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "AoW",
+    "team2": "UEC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/73/The_Art_of_War_allmode.png/54px-The_Art_of_War_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/Underground_Esports_Club_lightmode.png/93px-Underground_Esports_Club_lightmode.png"
+  },
+  {
+    "team1": "FAVBET",
+    "team2": "ESC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 09:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3a/FAVBET_Team_allmode.png/72px-FAVBET_Team_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/45/ESC_Gaming_2023_allmode.png/88px-ESC_Gaming_2023_allmode.png"
+  },
+  {
+    "team1": "Mindfreak",
+    "team2": "SemperFi",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 09:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/10/Mindfreak_allmode.png/37px-Mindfreak_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png"
+  },
+  {
+    "team1": "PARIVISION",
+    "team2": "HEROIC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/0d/HEROIC_2024_allmode.png/57px-HEROIC_2024_allmode.png"
+  },
+  {
+    "team1": "ex-UHKA",
+    "team2": "Heimo",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/90/Heimo_Esports_allmode.png/50px-Heimo_Esports_allmode.png"
+  },
+  {
+    "team1": "FCottoNd",
+    "team2": "ENCE AC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 12:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/46/ENCE_Academy_dec_2023_allmode.png/50px-ENCE_Academy_dec_2023_allmode.png"
+  },
+  {
+    "team1": "500",
+    "team2": "Astralis",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/97/500_Esports_2024_allmode.png/70px-500_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3d/Astralis_2020_allmode.png/41px-Astralis_2020_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "Imperial",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 15:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/93/Imperial_Esports_2022_allmode.png/44px-Imperial_Esports_2022_allmode.png"
+  },
+  {
+    "team1": "Solid",
+    "team2": "ShindeN",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 15:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/Team_Solid_%28Brazilian_team%29_2024_lightmode.png/48px-Team_Solid_%28Brazilian_team%29_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/65/ShindeN_lightmode.png/54px-ShindeN_lightmode.png"
+  },
+  {
+    "team1": "RUSTEC",
+    "team2": "SPELLS",
+    "score": "vs(Bo1)",
+    "tournament": "ESEA S52 - EU Advanced",
+    "time": "2025-02-09 15:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/8/85/Rustec_allmode.png/50px-Rustec_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Vitality",
+    "team2": "TBD",
+    "score": "vs(Bo5)",
+    "tournament": "",
+    "time": "2025-02-09 16:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/41px-Team_Vitality_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "Kubix",
+    "team2": "SPELLS",
+    "score": "vs(Bo1)",
+    "tournament": "ESEA S52 - EU Advanced",
+    "time": "2025-02-09 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/2/2e/Kubix_Esports_allmode.png/70px-Kubix_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Sharks",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a1/Sharks_Esports_2023_allmode.png/15px-Sharks_Esports_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "aYa",
+    "team2": "GH",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 18:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/74/AdalYamigos_allmode.png/65px-AdalYamigos_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/a8/Game_Hunters_allmode.png/55px-Game_Hunters_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-09 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo1)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-09 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "BStorm",
+    "team2": "ROYALS",
+    "score": "vs(Bo1)",
+    "tournament": "UKIC League S5: Div. 1",
+    "time": "2025-02-09 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/2/21/Belfast_Storm_allmode.png/50px-Belfast_Storm_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c5/ROYALS_2021_lightmode.png/60px-ROYALS_2021_lightmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "GC Liga S\u00e9rie A: Feb. '25 Relg.",
+    "time": "2025-02-09 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "KR\u00dc",
+    "team2": "Atrix",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 21:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/bf/KRU_Esports_allmode.png/47px-KRU_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/31/Atrix_Esports_lightmode.png/53px-Atrix_Esports_lightmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 22:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "DR",
+    "team2": "Yawara",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 00:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/ae/Dusty_Roots_Sep_2024_allmode.png/37px-Dusty_Roots_Sep_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e9/Yawara_Esports_lightmode.png/100px-Yawara_Esports_lightmode.png"
+  },
+  {
+    "team1": "ATOX",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/8/89/ATOX_Esports_2024_lightmode.png/35px-ATOX_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TYLOO",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/56px-TyLoo_2016_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "Housebets",
+    "team2": "Rooster",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/03/Housebets_icon_allmode.png/49px-Housebets_icon_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3d/Rooster_allmode.png/40px-Rooster_allmode.png"
+  },
+  {
+    "team1": "CS2N",
+    "team2": "Insilio",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 08:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/08/CS2NEWS_allmode.png/50px-CS2NEWS_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/4e/Insilio_lightmode.png/50px-Insilio_lightmode.png"
+  },
+  {
+    "team1": "GTZ",
+    "team2": "UNiTY",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 09:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3b/GTZ_ESPORTS_allmode.png/44px-GTZ_ESPORTS_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1f/UNiTY_esports_allmode.png/76px-UNiTY_esports_allmode.png"
+  },
+  {
+    "team1": "Viperio",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 09:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/bc/Viperio_allmode.png/63px-Viperio_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 09:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "LVG",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e7/Lynn_Vision_Gaming_2024_allmode.png/74px-Lynn_Vision_Gaming_2024_allmode.png"
+  },
+  {
+    "team1": "CHMR",
+    "team2": "K27",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 11:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/03/Chimera_Esports_DOTA2_allmode.png/37px-Chimera_Esports_DOTA2_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c0/K27_allmode.png/100px-K27_allmode.png"
+  },
+  {
+    "team1": "Eclot",
+    "team2": "NIP.Imp",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 12:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c4/Dynamo_Eclot_allmode.png/61px-Dynamo_Eclot_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/f4/Ninjas_in_Pyjamas_2021_lightmode.png/50px-Ninjas_in_Pyjamas_2021_lightmode.png"
+  },
+  {
+    "team1": "Huns",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/94/The_Huns_Esports_lightmode.png/46px-The_Huns_Esports_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "EGST",
+    "team2": "FLG",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 14:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/75/EGOISTO_allmode.png/50px-EGOISTO_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/8e/FLuffy_Gangsters_allmode.png/48px-FLuffy_Gangsters_allmode.png"
+  },
+  {
+    "team1": "ODDIK",
+    "team2": "Players",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 15:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/03/ODDIK_allmode.png/50px-ODDIK_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "JANO",
+    "team2": "smuutti",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 15:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/36/JANO_Esports_2024_allmode.png/58px-JANO_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "CPHW",
+    "team2": "CHMR",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 16:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/75/Copenhagen_Wolves_2012_allmode.png/50px-Copenhagen_Wolves_2012_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/Chimera_Esports_DOTA2_allmode.png/37px-Chimera_Esports_DOTA2_allmode.png"
+  },
+  {
+    "team1": "NAVI",
+    "team2": "Spirit",
+    "score": "0:1(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3f/Natus_Vincere_2021_lightmode.png/57px-Natus_Vincere_2021_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/66/Team_Spirit_2022_lightmode.png/43px-Team_Spirit_2022_lightmode.png"
+  },
+  {
+    "team1": "Legacy",
+    "team2": "MIBR",
+    "score": "0:1(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/85/MIBR_2018_lightmode.png/100px-MIBR_2018_lightmode.png"
+  },
+  {
+    "team1": "NVRMR",
+    "team2": "TAC",
+    "score": "0:0(Bo1)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/48/NEVERMORE_lightmode.png/44px-NEVERMORE_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "TNL",
+    "team2": "OG",
+    "score": "0:0(Bo1)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:35:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "ALASKA",
+    "team2": "Apogee",
+    "score": "0:0(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/90/ALASKA_allmode.png/45px-ALASKA_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6e/Betclic_Apogee_Esports_lightmode.png/53px-Betclic_Apogee_Esports_lightmode.png"
+  },
+  {
+    "team1": "Partyz",
+    "team2": "MIGHT",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ef/Party_Astronauts_2020_lightmode.png/63px-Party_Astronauts_2020_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/b0/MIGHT_2025_lightmode.png/42px-MIGHT_2025_lightmode.png"
+  },
+  {
+    "team1": "M80",
+    "team2": "BNC",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/5c/M80_Esports_2024_lightmode.png/52px-M80_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Vagrants",
+    "team2": "ImmPeek",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e6/Immigrants_Peek_allmode.png/100px-Immigrants_Peek_allmode.png"
+  },
+  {
+    "team1": "Mythic",
+    "team2": "Alter Iron",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/b1/Mythic_allmode.png/48px-Mythic_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/d9/Alter_Iron_Club_lightmode.png/47px-Alter_Iron_Club_lightmode.png"
+  },
+  {
+    "team1": "Chill Guys",
+    "team2": "Exceritus",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/01/Chill_Guys_lightmode.png/100px-Chill_Guys_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/d4/Exceritus_allmode.png/40px-Exceritus_allmode.png"
+  },
+  {
+    "team1": "InControl",
+    "team2": "Fly RED",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 19:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/2/28/InControl_2024_allmode.png/57px-InControl_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c5/FlyQuest_RED_2023_allmode.png/51px-FlyQuest_RED_2023_allmode.png"
+  },
+  {
+    "team1": "LAG",
+    "team2": "CCoop",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/17/LAG_Gaming_US_lightmode.png/80px-LAG_Gaming_US_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/ab/Chicken_Coop_Esports_2024_allmode.png/46px-Chicken_Coop_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "Marsborne",
+    "team2": "MCS",
+    "score": "0:0(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-08 20:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/1a/Marsborne_logo_allmode.png/42px-Marsborne_logo_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/MCS_Gaming_allmode.png/47px-MCS_Gaming_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 20:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "paiN",
+    "team2": "RED",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6f/PaiN_Gaming_2023_lightmode.png/76px-PaiN_Gaming_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3b/Red_Canids_allmode.png/57px-Red_Canids_allmode.png"
+  },
+  {
+    "team1": "Imperial",
+    "team2": "KR\u00dc",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/93/Imperial_Esports_2022_allmode.png/44px-Imperial_Esports_2022_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/bf/KRU_Esports_allmode.png/47px-KRU_Esports_allmode.png"
+  },
+  {
+    "team1": "Nitro",
+    "team2": "Galorys",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c2/Nitro.GG_lightmode.png/48px-Nitro.GG_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/35/Galorys_2023_allmode.png/27px-Galorys_2023_allmode.png"
+  },
+  {
+    "team1": "BESTIA",
+    "team2": "ODDIK",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/BESTIA_lightmode.png/42px-BESTIA_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/ODDIK_allmode.png/50px-ODDIK_allmode.png"
+  },
+  {
+    "team1": "Legacy",
+    "team2": "LCL",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: SA OQ",
+    "time": "2025-02-08 21:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "BACK",
+    "team2": "Akimbo",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/a1/Akimbo_Esports_allmode.png/52px-Akimbo_Esports_allmode.png"
+  },
+  {
+    "team1": "Partyz",
+    "team2": "Chill Guys",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ef/Party_Astronauts_2020_lightmode.png/63px-Party_Astronauts_2020_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/01/Chill_Guys_lightmode.png/100px-Chill_Guys_lightmode.png"
+  },
+  {
+    "team1": "Get Info",
+    "team2": "Marsborne",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1a/Marsborne_logo_allmode.png/42px-Marsborne_logo_allmode.png"
+  },
+  {
+    "team1": "Nouns",
+    "team2": "Vagrants",
+    "score": "vs(Bo1)",
+    "tournament": "IEM Dallas 2025: NA OQ",
+    "time": "2025-02-08 23:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ea/Nouns_Esports_CSGO_allmode.png/55px-Nouns_Esports_CSGO_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "DogEvil",
+    "team2": "Housebets",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/8/8d/DogEvil_2025_allmode.png/35px-DogEvil_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/03/Housebets_icon_allmode.png/49px-Housebets_icon_allmode.png"
+  },
+  {
+    "team1": "Shika",
+    "team2": "AoW",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a2/Shika_2025_allmode.png/91px-Shika_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/73/The_Art_of_War_allmode.png/54px-The_Art_of_War_allmode.png"
+  },
+  {
+    "team1": "Rooster",
+    "team2": "DXA",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3d/Rooster_allmode.png/40px-Rooster_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/dd/DXA_Esports_lightmode.png/100px-DXA_Esports_lightmode.png"
+  },
+  {
+    "team1": "CW",
+    "team2": "Mindfreak",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/71/CW_allmode.png/50px-CW_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/10/Mindfreak_allmode.png/37px-Mindfreak_allmode.png"
+  },
+  {
+    "team1": "RA",
+    "team2": "JiJieHao",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/cd/Rare_Atom_2024_allmode.png/55px-Rare_Atom_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/67/JiJieHao_allmode.png/55px-JiJieHao_allmode.png"
+  },
+  {
+    "team1": "UR",
+    "team2": "GDR",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/Unsettled_Resentment_2025_allmode.png/50px-Unsettled_Resentment_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/4e/Gods_Reign_2022_allmode.png/42px-Gods_Reign_2022_allmode.png"
+  },
+  {
+    "team1": "SemperFi",
+    "team2": "JSwing",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/f4/Just_Swing_2025_allmode.png/55px-Just_Swing_2025_allmode.png"
+  },
+  {
+    "team1": "Eruption",
+    "team2": "Believe",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-09 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ee/Eruption_2023_lightmode.png/34px-Eruption_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "PARIVISION",
+    "team2": "HEROIC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/0d/HEROIC_2024_allmode.png/57px-HEROIC_2024_allmode.png"
+  },
+  {
+    "team1": "ex-UHKA",
+    "team2": "Heimo",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/90/Heimo_Esports_allmode.png/50px-Heimo_Esports_allmode.png"
+  },
+  {
+    "team1": "FCottoNd",
+    "team2": "ENCE AC",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 12:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/46/ENCE_Academy_dec_2023_allmode.png/50px-ENCE_Academy_dec_2023_allmode.png"
+  },
+  {
+    "team1": "500",
+    "team2": "Astralis",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/97/500_Esports_2024_allmode.png/70px-500_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3d/Astralis_2020_allmode.png/41px-Astralis_2020_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "Imperial",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 15:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/93/Imperial_Esports_2022_allmode.png/44px-Imperial_Esports_2022_allmode.png"
+  },
+  {
+    "team1": "Solid",
+    "team2": "ShindeN",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 15:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/9c/Team_Solid_%28Brazilian_team%29_2024_lightmode.png/48px-Team_Solid_%28Brazilian_team%29_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/65/ShindeN_lightmode.png/54px-ShindeN_lightmode.png"
+  },
+  {
+    "team1": "Vitality",
+    "team2": "TBD",
+    "score": "vs(Bo5)",
+    "tournament": "",
+    "time": "2025-02-09 16:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/41px-Team_Vitality_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "Sharks",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a1/Sharks_Esports_2023_allmode.png/15px-Sharks_Esports_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "aYa",
+    "team2": "GH",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 18:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/7/74/AdalYamigos_allmode.png/65px-AdalYamigos_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/a8/Game_Hunters_allmode.png/55px-Game_Hunters_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising NA Qual",
+    "time": "2025-02-09 20:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "KR\u00dc",
+    "team2": "Atrix",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 21:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/bf/KRU_Esports_allmode.png/47px-KRU_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/31/Atrix_Esports_lightmode.png/53px-Atrix_Esports_lightmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-09 22:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "DR",
+    "team2": "Yawara",
+    "score": "vs(Bo3)",
+    "tournament": "",
+    "time": "2025-02-10 00:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/ae/Dusty_Roots_Sep_2024_allmode.png/37px-Dusty_Roots_Sep_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e9/Yawara_Esports_lightmode.png/100px-Yawara_Esports_lightmode.png"
+  },
+  {
+    "team1": "ATOX",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/8/89/ATOX_Esports_2024_lightmode.png/35px-ATOX_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 04:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TYLOO",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Spring",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/56px-TyLoo_2016_allmode.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "TBD",
+    "team2": "TBD",
+    "score": "vs(Bo3)",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-10 07:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6a/Filler_600px.png/50px-Filler_600px.png"
+  },
+  {
+    "team1": "ex-Daystar",
+    "team2": "Hesta",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Z10",
+    "team2": "BC.Game",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/cf/BC.Game_Esports_lightmode.png/42px-BC.Game_Esports_lightmode.png"
+  },
+  {
+    "team1": "benched",
+    "team2": "OG",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:35:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "ENCE",
+    "team2": "Z10",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/ENCE_2020_allmode.png/50px-ENCE_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png"
+  },
+  {
+    "team1": "Betera",
+    "team2": "ex-Daystar",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:10:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c3/Betera_2024_allmode.png/47px-Betera_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "CYBSHOKE",
+    "team2": "TNL",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:10:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/f/fe/CYBERSHOKE_Esports_2024_allmode.png/43px-CYBERSHOKE_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png"
+  },
+  {
+    "team1": "QPT",
+    "team2": "LRD",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:05:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/1e/QPT_allmode.png/61px-QPT_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Hesta",
+    "team2": "NAVI Jr.",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png"
+  },
+  {
+    "team1": "Partizan",
+    "team2": "BC.Game",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/08/Partizan_Esports_2024_lightmode.png/43px-Partizan_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/cf/BC.Game_Esports_lightmode.png/42px-BC.Game_Esports_lightmode.png"
+  },
+  {
+    "team1": "500",
+    "team2": "OG",
+    "score": "W:FF",
+    "tournament": "CCT EU Series #17",
+    "time": "2025-02-08 17:40:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/97/500_Esports_2024_allmode.png/70px-500_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "Sharks",
+    "team2": "BESTIA",
+    "score": "2:0",
+    "tournament": "BLAST Rising SA Spring",
+    "time": "2025-02-08 17:20:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a1/Sharks_Esports_2023_allmode.png/15px-Sharks_Esports_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/9c/BESTIA_lightmode.png/42px-BESTIA_lightmode.png"
+  },
+  {
+    "team1": "COL",
+    "team2": "Betera",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/98/Complexity_2025_allmode.png/100px-Complexity_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c3/Betera_2024_allmode.png/47px-Betera_2024_allmode.png"
+  },
+  {
+    "team1": "ex-Daystar",
+    "team2": "FAVBET",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3a/FAVBET_Team_allmode.png/72px-FAVBET_Team_allmode.png"
+  },
+  {
+    "team1": "Hesta",
+    "team2": "PARIVISION",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png"
+  },
+  {
+    "team1": "NAVI Jr.",
+    "team2": "RUSH B",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1b/RUSH_B_allmode.png/50px-RUSH_B_allmode.png"
+  },
+  {
+    "team1": "IC Esports",
+    "team2": "CYBSHOKE",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/fe/CYBERSHOKE_Esports_2024_allmode.png/43px-CYBERSHOKE_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "TNL",
+    "team2": "1win",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/5c/1win_Team_2024_allmode.png/100px-1win_Team_2024_allmode.png"
+  },
+  {
+    "team1": "benched",
+    "team2": "ATRIVM",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "MP",
+    "team2": "OG",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "Eclot",
+    "team2": "NVRMR",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c4/Dynamo_Eclot_allmode.png/61px-Dynamo_Eclot_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/48/NEVERMORE_lightmode.png/44px-NEVERMORE_lightmode.png"
+  },
+  {
+    "team1": "TAC",
+    "team2": "bruh",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Fnatic",
+    "team2": "QPT",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/77px-Fnatic_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1e/QPT_allmode.png/61px-QPT_allmode.png"
+  },
+  {
+    "team1": "SINNERS",
+    "team2": "LRD",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/4f/SINNERS_Esports_allmode.png/39px-SINNERS_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "ENCE",
+    "team2": "AUSB",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/ENCE_2020_allmode.png/50px-ENCE_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Z10",
+    "team2": "FORZE.Rld",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/05/FORZE_Reload_allmode.png/30px-FORZE_Reload_allmode.png"
+  },
+  {
+    "team1": "Partizan",
+    "team2": "SkyFury",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/08/Partizan_Esports_2024_lightmode.png/43px-Partizan_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e5/SkyFury_allmode.png/59px-SkyFury_allmode.png"
+  },
+  {
+    "team1": "BC.Game",
+    "team2": "Aurora",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/cf/BC.Game_Esports_lightmode.png/42px-BC.Game_Esports_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/18/Aurora_Gaming_2023_allmode.png/50px-Aurora_Gaming_2023_allmode.png"
+  },
+  {
+    "team1": "DEPO",
+    "team2": "GP",
+    "score": "0:2",
+    "tournament": "GamePoint PRO League S1",
+    "time": "2025-02-08 16:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/31/Depo_2024_allmode.png/60px-Depo_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/ed/GamePoint_Esports_allmode.png/79px-GamePoint_Esports_allmode.png"
+  },
+  {
+    "team1": "Imperial",
+    "team2": "Fluxo",
+    "score": "2:0",
+    "tournament": "BLAST Rising SA Spring",
+    "time": "2025-02-08 15:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/93/Imperial_Esports_2022_allmode.png/44px-Imperial_Esports_2022_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/e3/Fluxo_lightmode.png/50px-Fluxo_lightmode.png"
+  },
+  {
+    "team1": "AMKAL",
+    "team2": "CYBSHOKE",
+    "score": "0:2",
+    "tournament": "CCT EU Play-In #18",
+    "time": "2025-02-08 15:05:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/4a/AMKAL_ESPORTS_2024_lightmode.png/48px-AMKAL_ESPORTS_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/fe/CYBERSHOKE_Esports_2024_allmode.png/43px-CYBERSHOKE_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "Vitality",
+    "team2": "MongolZ",
+    "score": "2:0",
+    "tournament": "IEM Katowice 2025",
+    "time": "2025-02-08 14:45:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/41px-Team_Vitality_2023_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/39px-The_MongolZ_2024_03_allmode.png"
+  },
+  {
+    "team1": "GTZ",
+    "team2": "Apogee",
+    "score": "1:2",
+    "tournament": "CCT EU Series #17",
+    "time": "2025-02-08 14:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3b/GTZ_ESPORTS_allmode.png/44px-GTZ_ESPORTS_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6e/Betclic_Apogee_Esports_lightmode.png/53px-Betclic_Apogee_Esports_lightmode.png"
+  },
+  {
+    "team1": "BIG",
+    "team2": "500",
+    "score": "0:2",
+    "tournament": "",
+    "time": "2025-02-08 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/4c/BIG_2020_lightmode.png/35px-BIG_2020_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/97/500_Esports_2024_allmode.png/70px-500_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "9INE",
+    "team2": "Astralis",
+    "score": "0:2",
+    "tournament": "",
+    "time": "2025-02-08 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/d/da/9INE_2022_lightmode.png/50px-9INE_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3d/Astralis_2020_allmode.png/41px-Astralis_2020_allmode.png"
+  },
+  {
+    "team1": "GP",
+    "team2": "CGen",
+    "score": "2:1",
+    "tournament": "GamePoint PRO League S1",
+    "time": "2025-02-08 13:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/ed/GamePoint_Esports_allmode.png/79px-GamePoint_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/47/Cyber_Generation_allmode.png/50px-Cyber_Generation_allmode.png"
+  },
+  {
+    "team1": "Z10",
+    "team2": "RUSH B",
+    "score": "0:2",
+    "tournament": "CCT EU Play-In #18",
+    "time": "2025-02-08 12:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1b/RUSH_B_allmode.png/50px-RUSH_B_allmode.png"
+  },
+  {
+    "team1": "ENCE AC",
+    "team2": "ESC",
+    "score": "0:2",
+    "tournament": "United21 Season 26",
+    "time": "2025-02-08 12:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/46/ENCE_Academy_dec_2023_allmode.png/50px-ENCE_Academy_dec_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/45/ESC_Gaming_2023_allmode.png/88px-ESC_Gaming_2023_allmode.png"
+  },
+  {
+    "team1": "Spirit.A",
+    "team2": "Alliance",
+    "score": "2:0",
+    "tournament": "CCT EU Series #17",
+    "time": "2025-02-08 11:30:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3a/Alliance_2024_allmode.png/70px-Alliance_2024_allmode.png"
+  },
+  {
+    "team1": "Huns",
+    "team2": "IHC",
+    "score": "2:1",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 11:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/94/The_Huns_Esports_lightmode.png/46px-The_Huns_Esports_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/88/IHC_ESPORTS_allmode.png/42px-IHC_ESPORTS_allmode.png"
+  },
+  {
+    "team1": "TYLOO",
+    "team2": "DogEvil",
+    "score": "2:0",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 11:10:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/56px-TyLoo_2016_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/8d/DogEvil_2025_allmode.png/35px-DogEvil_2025_allmode.png"
+  },
+  {
+    "team1": "TNL",
+    "team2": "GTZ",
+    "score": "2:1",
+    "tournament": "Justice Cup vol. 4",
+    "time": "2025-02-08 11:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3b/GTZ_ESPORTS_allmode.png/44px-GTZ_ESPORTS_allmode.png"
+  },
+  {
+    "team1": "GL",
+    "team2": "PARIVISION",
+    "score": "0:2",
+    "tournament": "",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/ab/GamerLegion_CS_2023_allmode.png/91px-GamerLegion_CS_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png"
+  },
+  {
+    "team1": "Passion UA",
+    "team2": "HEROIC",
+    "score": "0:2",
+    "tournament": "",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/b6/Passion_UA_2024_allmode.png/27px-Passion_UA_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/0d/HEROIC_2024_allmode.png/57px-HEROIC_2024_allmode.png"
+  },
+  {
+    "team1": "Rooster",
+    "team2": "SemperFi",
+    "score": "1:2",
+    "tournament": "BLAST Rising AS Qual",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3d/Rooster_allmode.png/40px-Rooster_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png"
+  },
+  {
+    "team1": "DEPO",
+    "team2": "GP",
+    "score": "2:1",
+    "tournament": "GamePoint PRO League S1",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/31/Depo_2024_allmode.png/60px-Depo_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/e/ed/GamePoint_Esports_allmode.png/79px-GamePoint_Esports_allmode.png"
+  },
+  {
+    "team1": "Huns",
+    "team2": "Vizora",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/94/The_Huns_Esports_lightmode.png/46px-The_Huns_Esports_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/6/6e/Vizora_Esports_allmode.png/47px-Vizora_Esports_allmode.png"
+  },
+  {
+    "team1": "Nomads",
+    "team2": "IHC",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/55/Nomads_%28Mongolian_team%29_allmode.png/33px-Nomads_%28Mongolian_team%29_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/88/IHC_ESPORTS_allmode.png/42px-IHC_ESPORTS_allmode.png"
+  },
+  {
+    "team1": "TYLOO",
+    "team2": "harizma",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/56px-TyLoo_2016_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/d3/Harizma_allmode.png/53px-Harizma_allmode.png"
+  },
+  {
+    "team1": "THE",
+    "team2": "DogEvil",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: AS OQ",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/8/8d/DogEvil_2025_allmode.png/35px-DogEvil_2025_allmode.png"
+  },
+  {
+    "team1": "FAVBET",
+    "team2": "Viperio",
+    "score": "0:2",
+    "tournament": "United21 Season 26",
+    "time": "2025-02-08 10:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/3/3a/FAVBET_Team_allmode.png/72px-FAVBET_Team_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/bc/Viperio_allmode.png/63px-Viperio_allmode.png"
+  },
+  {
+    "team1": "ex-Daystar",
+    "team2": "Hesta",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Z10",
+    "team2": "BC.Game",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 19:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/cf/BC.Game_Esports_lightmode.png/42px-BC.Game_Esports_lightmode.png"
+  },
+  {
+    "team1": "benched",
+    "team2": "OG",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:35:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "ENCE",
+    "team2": "Z10",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:15:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/ENCE_2020_allmode.png/50px-ENCE_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png"
+  },
+  {
+    "team1": "Betera",
+    "team2": "ex-Daystar",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:10:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c3/Betera_2024_allmode.png/47px-Betera_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "CYBSHOKE",
+    "team2": "TNL",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:10:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/f/fe/CYBERSHOKE_Esports_2024_allmode.png/43px-CYBERSHOKE_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png"
+  },
+  {
+    "team1": "QPT",
+    "team2": "LRD",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:05:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/1/1e/QPT_allmode.png/61px-QPT_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Hesta",
+    "team2": "NAVI Jr.",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png"
+  },
+  {
+    "team1": "Partizan",
+    "team2": "BC.Game",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 18:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/0/08/Partizan_Esports_2024_lightmode.png/43px-Partizan_Esports_2024_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/cf/BC.Game_Esports_lightmode.png/42px-BC.Game_Esports_lightmode.png"
+  },
+  {
+    "team1": "500",
+    "team2": "OG",
+    "score": "W:FF",
+    "tournament": "CCT EU Series #17",
+    "time": "2025-02-08 17:40:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/97/500_Esports_2024_allmode.png/70px-500_Esports_2024_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "Sharks",
+    "team2": "BESTIA",
+    "score": "2:0",
+    "tournament": "BLAST Rising SA Spring",
+    "time": "2025-02-08 17:20:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/a/a1/Sharks_Esports_2023_allmode.png/15px-Sharks_Esports_2023_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/9c/BESTIA_lightmode.png/42px-BESTIA_lightmode.png"
+  },
+  {
+    "team1": "COL",
+    "team2": "Betera",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/9/98/Complexity_2025_allmode.png/100px-Complexity_2025_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/c/c3/Betera_2024_allmode.png/47px-Betera_2024_allmode.png"
+  },
+  {
+    "team1": "ex-Daystar",
+    "team2": "FAVBET",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/3/3a/FAVBET_Team_allmode.png/72px-FAVBET_Team_allmode.png"
+  },
+  {
+    "team1": "Hesta",
+    "team2": "PARIVISION",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png"
+  },
+  {
+    "team1": "NAVI Jr.",
+    "team2": "RUSH B",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1b/RUSH_B_allmode.png/50px-RUSH_B_allmode.png"
+  },
+  {
+    "team1": "IC Esports",
+    "team2": "CYBSHOKE",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/f/fe/CYBERSHOKE_Esports_2024_allmode.png/43px-CYBERSHOKE_Esports_2024_allmode.png"
+  },
+  {
+    "team1": "TNL",
+    "team2": "1win",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/b/ba/TEAM_NEXT_LEVEL_oct_24_allmode.png/87px-TEAM_NEXT_LEVEL_oct_24_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/5c/1win_Team_2024_allmode.png/100px-1win_Team_2024_allmode.png"
+  },
+  {
+    "team1": "benched",
+    "team2": "ATRIVM",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "MP",
+    "team2": "OG",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/7/70/OG_RB_allmode.png/34px-OG_RB_allmode.png"
+  },
+  {
+    "team1": "Eclot",
+    "team2": "NVRMR",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c4/Dynamo_Eclot_allmode.png/61px-Dynamo_Eclot_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/4/48/NEVERMORE_lightmode.png/44px-NEVERMORE_lightmode.png"
+  },
+  {
+    "team1": "TAC",
+    "team2": "bruh",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Fnatic",
+    "team2": "QPT",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/77px-Fnatic_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/1/1e/QPT_allmode.png/61px-QPT_allmode.png"
+  },
+  {
+    "team1": "SINNERS",
+    "team2": "LRD",
+    "score": "0:1",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/4/4f/SINNERS_Esports_allmode.png/39px-SINNERS_Esports_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "ENCE",
+    "team2": "AUSB",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/e/e4/ENCE_2020_allmode.png/50px-ENCE_2020_allmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png"
+  },
+  {
+    "team1": "Z10",
+    "team2": "FORZE.Rld",
+    "score": "1:0",
+    "tournament": "IEM Dallas 2025: EU OQ",
+    "time": "2025-02-08 17:00:00 UTC",
+    "logo1": "https://liquipedia.net/commons/images/thumb/c/c6/Zero_Tenacity_2022_lightmode.png/73px-Zero_Tenacity_2022_lightmode.png",
+    "logo2": "https://liquipedia.net/commons/images/thumb/0/05/FORZE_Reload_allmode.png/30px-FORZE_Reload_allmode.png"
+  }
+]
