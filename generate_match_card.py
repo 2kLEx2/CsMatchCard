@@ -1,31 +1,52 @@
 import json
-import os
 import time
+import os
+import subprocess
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🔧 Ensure WebDriverManager Uses the Correct ChromeDriver
+# 🔧 Ensure Chrome & ChromeDriver are installed manually
+def install_chrome_and_driver():
+    """Manually installs Chrome & ChromeDriver for Streamlit Cloud"""
+    chrome_path = "/usr/bin/google-chrome"
+    chromedriver_path = "/usr/bin/chromedriver"
+
+    if not os.path.exists(chrome_path):
+        print("🔹 Installing Google Chrome...")
+        subprocess.run(["wget", "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"])
+        subprocess.run(["sudo", "dpkg", "-i", "google-chrome-stable_current_amd64.deb"])
+        subprocess.run(["sudo", "apt", "--fix-broken", "install", "-y"])  # Fix any broken dependencies
+
+    if not os.path.exists(chromedriver_path):
+        print("🔹 Installing ChromeDriver...")
+        subprocess.run(["wget", "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"])
+        subprocess.run(["unzip", "chromedriver_linux64.zip"])
+        subprocess.run(["sudo", "mv", "chromedriver", chromedriver_path])
+        subprocess.run(["sudo", "chmod", "+x", chromedriver_path])
+
+# 🚀 Set up WebDriver
 def get_webdriver():
     """Returns a properly configured WebDriver instance."""
+    install_chrome_and_driver()  # Ensure Chrome & Driver are installed first
+
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Run in headless mode
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")  # Fix crashes on low-memory systems
-    chrome_options.binary_location = "/usr/bin/google-chrome"  # Ensure correct Chrome binary
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # Explicitly set Chrome binary & Chromedriver path
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/bin/chromedriver")
 
     try:
-        # Explicitly set ChromeDriver path
-        driver_path = "/usr/bin/chromedriver"
-        service = Service(driver_path)
         driver = webdriver.Chrome(service=service, options=chrome_options)
         return driver
     except Exception as e:
         print(f"❌ WebDriver failed to initialize: {e}")
         exit(1)
-
 # ✅ Load match data safely
 try:
     with open("selected_matches.json", "r", encoding="utf-8") as f:
