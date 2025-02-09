@@ -16,7 +16,7 @@ for match in matches:
     match['logo2'] = match.get('logo2', "https://via.placeholder.com/60")
 
 # 📏 Calculate dynamic page height
-page_height = max(200, 120 * len(matches))
+page_height = max(400, 120 * len(matches))  # Ensure enough space for matches
 
 # 📜 Generate HTML content
 html_content = f"""
@@ -86,7 +86,18 @@ print("📸 Generating image using html2image...")
 
 try:
     hti = Html2Image(output_path=".")
-    hti.screenshot(html_str=html_content, save_as="match_preview.png")
-    print("✅ Screenshot saved as match_preview.png")
+    hti.browser = 'firefox'  # Ensuring proper browser rendering
+    hti.size = (800, page_height)  # Setting explicit size for the screenshot
+
+    # Save the match preview image
+    output_filename = "match_preview.png"
+    hti.screenshot(html_str=html_content, save_as=output_filename)
+
+    # ✅ Verify image generation
+    if os.path.exists(output_filename):
+        print(f"✅ Screenshot successfully saved: {output_filename}")
+    else:
+        print("❌ Error: Match card image not found after generation.")
+
 except Exception as e:
     print(f"❌ Error generating screenshot: {e}")
