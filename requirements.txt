@@ -5,3 +5,4 @@ lxml
 selenium
 webdriver-manager
 html2image
+pillow
