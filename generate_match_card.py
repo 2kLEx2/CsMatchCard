@@ -11,16 +11,18 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 def install_chrome_and_driver():
-    """Manually installs Google Chrome & ChromeDriver in a non-root environment"""
+    """Manually installs Google Chrome & ChromeDriver in a non-root environment."""
     chrome_path = "/home/appuser/bin/google-chrome"
     chromedriver_path = "/home/appuser/bin/chromedriver"
-    os.makedirs("/home/appuser/bin", exist_ok=True)  # Ensure directory exists
+    install_dir = "/home/appuser/bin"
+    
+    os.makedirs(install_dir, exist_ok=True)  # Ensure directory exists
 
     # 🟢 Install Google Chrome
     if not os.path.exists(chrome_path):
         print("🔹 Downloading Google Chrome...")
         chrome_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-        chrome_deb = "google-chrome-stable_current_amd64.deb"
+        chrome_deb = os.path.join(install_dir, "google-chrome-stable_current_amd64.deb")
 
         response = requests.get(chrome_url, stream=True)
         with open(chrome_deb, "wb") as file:
@@ -30,14 +32,15 @@ def install_chrome_and_driver():
         print("🔹 Extracting Google Chrome...")
         subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"], check=True)
 
-        # 🟢 Use shutil.move() instead of os.rename() to prevent cross-device errors
-        shutil.move("chrome/opt/google/chrome", chrome_path)
+        # 🟢 Fix cross-device move issue by using `shutil.copy()`
+        shutil.copy("chrome/opt/google/chrome", chrome_path)
+        os.chmod(chrome_path, 0o755)  # Make executable
 
     # 🟢 Install ChromeDriver
     if not os.path.exists(chromedriver_path):
         print("🔹 Downloading ChromeDriver...")
         chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
-        chromedriver_zip = "chromedriver_linux64.zip"
+        chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
 
         response = requests.get(chromedriver_url, stream=True)
         with open(chromedriver_zip, "wb") as file:
@@ -46,9 +49,9 @@ def install_chrome_and_driver():
 
         print("🔹 Extracting ChromeDriver...")
         with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
-            zip_ref.extractall()
+            zip_ref.extractall(install_dir)
 
-        shutil.move("chromedriver", chromedriver_path)  # 🟢 Fix: Prevent cross-device error
+        shutil.copy(os.path.join(install_dir, "chromedriver"), chromedriver_path)  # Fix cross-device move
         os.chmod(chromedriver_path, 0o755)  # Make executable
 
 # 🚀 Set up WebDriver
@@ -68,6 +71,7 @@ def get_webdriver():
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
+        print("✅ WebDriver initialized successfully!")
         return driver
     except Exception as e:
         print(f"❌ WebDriver failed to initialize: {e}")
@@ -88,7 +92,6 @@ for match in matches:
 
 # 📏 Calculate dynamic page height
 page_height = max(200, 120 * len(matches))
-
 
 # 📜 Generate HTML content
 html_content = f"""
