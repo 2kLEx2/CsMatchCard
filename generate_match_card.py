@@ -10,69 +10,61 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-def install_chrome_and_driver():
-    """Manually installs Google Chrome & ChromeDriver in a non-root environment."""
-    chrome_path = "/home/appuser/bin/google-chrome"
-    chromedriver_path = "/home/appuser/bin/chromedriver"
-    install_dir = "/home/appuser/bin"
-    
-    os.makedirs(install_dir, exist_ok=True)  # Ensure directory exists
+# 🔧 Paths for Chrome & ChromeDriver
+chrome_path = "/home/appuser/bin/google-chrome"
+chromedriver_path = "/home/appuser/bin/chromedriver"
+install_dir = "/home/appuser/bin"
 
-    # 🟢 Install Google Chrome
+def install_chrome():
+    """Installs Google Chrome in a non-root environment."""
     if not os.path.exists(chrome_path):
         print("🔹 Downloading Google Chrome...")
         chrome_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
         chrome_deb = os.path.join(install_dir, "google-chrome-stable_current_amd64.deb")
 
+        # Download Chrome
         response = requests.get(chrome_url, stream=True)
         with open(chrome_deb, "wb") as file:
             for chunk in response.iter_content(chunk_size=8192):
                 file.write(chunk)
 
         print("🔹 Extracting Google Chrome...")
-        subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"], check=True)
+        subprocess.run(["ar", "x", chrome_deb], check=True)
 
-        # 🟢 Use shutil.copytree() to copy the whole directory
-        shutil.copytree("chrome/opt/google/chrome", chrome_path, dirs_exist_ok=True)
+        # Move Chrome binary to correct path
+        shutil.copy("chrome/opt/google/chrome/google-chrome", chrome_path)
+        os.chmod(chrome_path, 0o755)  # Make executable
+        print("✅ Google Chrome installed successfully!")
 
-# 🟢 Install ChromeDriver
-if not os.path.exists(chromedriver_path):
-    print("🔹 Downloading ChromeDriver...")
-    chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
-    chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
+def install_chromedriver():
+    """Installs ChromeDriver manually to match Chrome version."""
+    if not os.path.exists(chromedriver_path):
+        print("🔹 Downloading ChromeDriver...")
+        chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
+        chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
 
-    # Download the ChromeDriver zip file
-    response = requests.get(chromedriver_url, stream=True)
-    with open(chromedriver_zip, "wb") as file:
-        for chunk in response.iter_content(chunk_size=8192):
-            file.write(chunk)
+        # Download the ChromeDriver zip file
+        response = requests.get(chromedriver_url, stream=True)
+        with open(chromedriver_zip, "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
 
-    print("🔹 Extracting ChromeDriver...")
-    extracted_dir = os.path.join(install_dir, "chromedriver_extracted")
-    os.makedirs(extracted_dir, exist_ok=True)  # Ensure extraction directory exists
+        print("🔹 Extracting ChromeDriver...")
+        with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
+            zip_ref.extractall(install_dir)
 
-    # Extract ChromeDriver properly
-    with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
-        zip_ref.extractall(extracted_dir)
-
-    # Find the extracted ChromeDriver binary
-    extracted_chromedriver = os.path.join(extracted_dir, "chromedriver")
-
-    if os.path.exists(extracted_chromedriver):
-        # Move ChromeDriver to the final path only if it does not already exist
-        shutil.move(extracted_chromedriver, chromedriver_path)
         os.chmod(chromedriver_path, 0o755)  # Make executable
         print("✅ ChromeDriver installed successfully!")
     else:
-        print("❌ Error: ChromeDriver was not extracted properly.")
-else:
-    print("✅ ChromeDriver already exists. Skipping download.")
+        print("✅ ChromeDriver already exists. Skipping download.")
+
+# ✅ Install Chrome and ChromeDriver
+install_chrome()
+install_chromedriver()
 
 # 🚀 Set up WebDriver
 def get_webdriver():
     """Returns a properly configured WebDriver instance."""
-    install_chrome_and_driver()  # Ensure Chrome & Driver are installed first
-
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Run in headless mode
     chrome_options.add_argument("--disable-gpu")
@@ -80,8 +72,8 @@ def get_webdriver():
     chrome_options.add_argument("--disable-dev-shm-usage")
 
     # 🟢 Explicitly set Chrome binary & Chromedriver path
-    chrome_options.binary_location = "/home/appuser/bin/google-chrome"
-    service = Service("/home/appuser/bin/chromedriver")
+    chrome_options.binary_location = chrome_path
+    service = Service(chromedriver_path)
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
