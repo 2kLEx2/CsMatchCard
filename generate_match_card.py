@@ -4,6 +4,7 @@ import os
 import subprocess
 import requests
 import zipfile
+import shutil
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -26,8 +27,10 @@ def install_chrome_and_driver():
                 file.write(chunk)
 
         print("🔹 Extracting Google Chrome...")
-        subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"])
-        os.rename("chrome/opt/google/chrome", chrome_path)
+        subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"], check=True)
+
+        # 🟢 Use shutil.move() instead of os.rename() to prevent cross-device errors
+        shutil.move("chrome/opt/google/chrome", chrome_path)
 
     # 🟢 Install ChromeDriver
     if not os.path.exists(chromedriver_path):
@@ -44,8 +47,8 @@ def install_chrome_and_driver():
         with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
             zip_ref.extractall()
 
-        os.rename("chromedriver", chromedriver_path)
-        os.chmod(chromedriver_path, 0o755)  # Make it executable
+        shutil.move("chromedriver", chromedriver_path)  # 🟢 Fix: Prevent cross-device error
+        os.chmod(chromedriver_path, 0o755)  # Make executable
 
 # 🚀 Set up WebDriver
 def get_webdriver():
@@ -84,6 +87,7 @@ for match in matches:
 
 # 📏 Calculate dynamic page height
 page_height = max(200, 120 * len(matches))
+
 
 # 📜 Generate HTML content
 html_content = f"""
