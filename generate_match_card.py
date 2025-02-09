@@ -14,9 +14,12 @@ def get_webdriver():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")  # Fix crashes on low-memory systems
+    chrome_options.binary_location = "/usr/bin/google-chrome"  # Ensure correct Chrome binary
 
     try:
-        service = Service(ChromeDriverManager().install())
+        # Explicitly set ChromeDriver path
+        driver_path = "/usr/bin/chromedriver"
+        service = Service(driver_path)
         driver = webdriver.Chrome(service=service, options=chrome_options)
         return driver
     except Exception as e:
