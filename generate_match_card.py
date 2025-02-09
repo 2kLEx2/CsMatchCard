@@ -2,27 +2,49 @@ import json
 import time
 import os
 import subprocess
+import requests
+import zipfile
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🔧 Ensure Chrome & ChromeDriver are installed manually
+# 🔧 Manually install Chrome & ChromeDriver
 def install_chrome_and_driver():
-    """Manually installs Chrome & ChromeDriver for Streamlit Cloud"""
+    """Manually installs Google Chrome & ChromeDriver for Streamlit Cloud"""
     chrome_path = "/usr/bin/google-chrome"
     chromedriver_path = "/usr/bin/chromedriver"
 
+    # 🟢 Install Google Chrome
     if not os.path.exists(chrome_path):
-        print("🔹 Installing Google Chrome...")
-        subprocess.run(["wget", "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"])
-        subprocess.run(["sudo", "dpkg", "-i", "google-chrome-stable_current_amd64.deb"])
-        subprocess.run(["sudo", "apt", "--fix-broken", "install", "-y"])  # Fix any broken dependencies
+        print("🔹 Downloading Google Chrome...")
+        chrome_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+        chrome_deb = "google-chrome-stable_current_amd64.deb"
 
+        response = requests.get(chrome_url, stream=True)
+        with open(chrome_deb, "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+
+        print("🔹 Installing Google Chrome...")
+        subprocess.run(["sudo", "dpkg", "-i", chrome_deb])
+        subprocess.run(["sudo", "apt", "--fix-broken", "install", "-y"])  # Fix dependencies
+
+    # 🟢 Install ChromeDriver
     if not os.path.exists(chromedriver_path):
-        print("🔹 Installing ChromeDriver...")
-        subprocess.run(["wget", "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"])
-        subprocess.run(["unzip", "chromedriver_linux64.zip"])
+        print("🔹 Downloading ChromeDriver...")
+        chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
+        chromedriver_zip = "chromedriver_linux64.zip"
+
+        response = requests.get(chromedriver_url, stream=True)
+        with open(chromedriver_zip, "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+
+        print("🔹 Extracting ChromeDriver...")
+        with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
+            zip_ref.extractall()
+
         subprocess.run(["sudo", "mv", "chromedriver", chromedriver_path])
         subprocess.run(["sudo", "chmod", "+x", chromedriver_path])
 
@@ -47,6 +69,7 @@ def get_webdriver():
     except Exception as e:
         print(f"❌ WebDriver failed to initialize: {e}")
         exit(1)
+
 # ✅ Load match data safely
 try:
     with open("selected_matches.json", "r", encoding="utf-8") as f:
