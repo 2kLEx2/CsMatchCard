@@ -32,9 +32,8 @@ def install_chrome_and_driver():
         print("🔹 Extracting Google Chrome...")
         subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"], check=True)
 
-        # 🟢 Fix cross-device move issue by using `shutil.copy()`
+        # 🟢 Use shutil.copytree() to copy the whole directory
         shutil.copytree("chrome/opt/google/chrome", chrome_path, dirs_exist_ok=True)
-        os.chmod(chrome_path, 0o755)  # Make executable
 
     # 🟢 Install ChromeDriver
     if not os.path.exists(chromedriver_path):
