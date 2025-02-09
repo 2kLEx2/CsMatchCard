@@ -1,87 +1,6 @@
 import json
-import time
 import os
-import subprocess
-import requests
-import zipfile
-import shutil
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-
-# 🔧 Paths for Chrome & ChromeDriver
-chrome_path = "/home/appuser/bin/google-chrome"
-chromedriver_path = "/home/appuser/bin/chromedriver"
-install_dir = "/home/appuser/bin"
-
-def install_chrome():
-    """Installs Google Chrome in a non-root environment."""
-    if not os.path.exists(chrome_path):
-        print("🔹 Downloading Google Chrome...")
-        chrome_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-        chrome_deb = os.path.join(install_dir, "google-chrome-stable_current_amd64.deb")
-
-        # Download Chrome
-        response = requests.get(chrome_url, stream=True)
-        with open(chrome_deb, "wb") as file:
-            for chunk in response.iter_content(chunk_size=8192):
-                file.write(chunk)
-
-        print("🔹 Extracting Google Chrome...")
-        subprocess.run(["ar", "x", chrome_deb], check=True)
-
-        # Move Chrome binary to correct path
-        shutil.copy("chrome/opt/google/chrome/google-chrome", chrome_path)
-        os.chmod(chrome_path, 0o755)  # Make executable
-        print("✅ Google Chrome installed successfully!")
-
-def install_chromedriver():
-    """Installs ChromeDriver manually to match Chrome version."""
-    if not os.path.exists(chromedriver_path):
-        print("🔹 Downloading ChromeDriver...")
-        chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
-        chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
-
-        # Download the ChromeDriver zip file
-        response = requests.get(chromedriver_url, stream=True)
-        with open(chromedriver_zip, "wb") as file:
-            for chunk in response.iter_content(chunk_size=8192):
-                file.write(chunk)
-
-        print("🔹 Extracting ChromeDriver...")
-        with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
-            zip_ref.extractall(install_dir)
-
-        os.chmod(chromedriver_path, 0o755)  # Make executable
-        print("✅ ChromeDriver installed successfully!")
-    else:
-        print("✅ ChromeDriver already exists. Skipping download.")
-
-# ✅ Install Chrome and ChromeDriver
-install_chrome()
-install_chromedriver()
-
-# 🚀 Set up WebDriver
-def get_webdriver():
-    """Returns a properly configured WebDriver instance."""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run in headless mode
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-
-    # 🟢 Explicitly set Chrome binary & Chromedriver path
-    chrome_options.binary_location = chrome_path
-    service = Service(chromedriver_path)
-
-    try:
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-        print("✅ WebDriver initialized successfully!")
-        return driver
-    except Exception as e:
-        print(f"❌ WebDriver failed to initialize: {e}")
-        exit(1)
+from html2image import Html2Image
 
 # ✅ Load match data safely
 try:
@@ -162,34 +81,12 @@ html_content += """
 </html>
 """
 
-# ✅ Save the HTML file
-html_file = "match_preview.html"
-with open(html_file, "w", encoding="utf-8") as f:
-    f.write(html_content)
+# ✅ Generate Screenshot Without Chrome/Selenium
+print("📸 Generating image using html2image...")
 
-# ✅ Initialize WebDriver
-driver = get_webdriver()
-
-# 🌐 Load the generated HTML file in the browser
-html_path = f"file://{os.path.abspath(html_file)}"
-driver.get(html_path)
-time.sleep(5)  # Allow rendering time
-
-# 📏 Get total page height and resize window dynamically
-total_height = driver.execute_script("return document.body.scrollHeight")
-driver.set_window_size(800, total_height)
-
-# 🖥️ Debugging Output
-print("🖥️ Page Title:", driver.title)
-print("📏 Page Height:", total_height)
-
-# 📸 Capture Screenshot
-screenshot_path = "match_preview.png"
 try:
-    driver.save_screenshot(screenshot_path)
-    print(f"✅ Screenshot saved as {screenshot_path}")
+    hti = Html2Image(output_path=".")
+    hti.screenshot(html_str=html_content, save_as="match_preview.png")
+    print("✅ Screenshot saved as match_preview.png")
 except Exception as e:
-    print(f"❌ Error capturing screenshot: {e}")
-
-# 🚪 Close WebDriver
-driver.quit()
+    print(f"❌ Error generating screenshot: {e}")
