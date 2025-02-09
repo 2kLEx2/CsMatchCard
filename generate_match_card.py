@@ -12,8 +12,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def install_chrome_and_driver():
     """Manually installs Google Chrome & ChromeDriver in a non-root environment"""
-    chrome_path = "/usr/local/bin/google-chrome"
-    chromedriver_path = "/usr/local/bin/chromedriver"
+    chrome_path = "/home/appuser/bin/google-chrome"
+    chromedriver_path = "/home/appuser/bin/chromedriver"
+    os.makedirs("/home/appuser/bin", exist_ok=True)  # Ensure directory exists
 
     # 🟢 Install Google Chrome
     if not os.path.exists(chrome_path):
@@ -62,8 +63,8 @@ def get_webdriver():
     chrome_options.add_argument("--disable-dev-shm-usage")
 
     # 🟢 Explicitly set Chrome binary & Chromedriver path
-    chrome_options.binary_location = "/usr/local/bin/google-chrome"
-    service = Service("/usr/local/bin/chromedriver")
+    chrome_options.binary_location = "/home/appuser/bin/google-chrome"
+    service = Service("/home/appuser/bin/chromedriver")
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
