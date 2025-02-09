@@ -9,11 +9,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🔧 Manually install Chrome & ChromeDriver
 def install_chrome_and_driver():
-    """Manually installs Google Chrome & ChromeDriver for Streamlit Cloud"""
-    chrome_path = "/usr/bin/google-chrome"
-    chromedriver_path = "/usr/bin/chromedriver"
+    """Manually installs Google Chrome & ChromeDriver in a non-root environment"""
+    chrome_path = "/usr/local/bin/google-chrome"
+    chromedriver_path = "/usr/local/bin/chromedriver"
 
     # 🟢 Install Google Chrome
     if not os.path.exists(chrome_path):
@@ -26,9 +25,9 @@ def install_chrome_and_driver():
             for chunk in response.iter_content(chunk_size=8192):
                 file.write(chunk)
 
-        print("🔹 Installing Google Chrome...")
-        subprocess.run(["sudo", "dpkg", "-i", chrome_deb])
-        subprocess.run(["sudo", "apt", "--fix-broken", "install", "-y"])  # Fix dependencies
+        print("🔹 Extracting Google Chrome...")
+        subprocess.run(["dpkg-deb", "-x", chrome_deb, "chrome"])
+        os.rename("chrome/opt/google/chrome", chrome_path)
 
     # 🟢 Install ChromeDriver
     if not os.path.exists(chromedriver_path):
@@ -45,8 +44,8 @@ def install_chrome_and_driver():
         with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
             zip_ref.extractall()
 
-        subprocess.run(["sudo", "mv", "chromedriver", chromedriver_path])
-        subprocess.run(["sudo", "chmod", "+x", chromedriver_path])
+        os.rename("chromedriver", chromedriver_path)
+        os.chmod(chromedriver_path, 0o755)  # Make it executable
 
 # 🚀 Set up WebDriver
 def get_webdriver():
@@ -59,9 +58,9 @@ def get_webdriver():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
-    # Explicitly set Chrome binary & Chromedriver path
-    chrome_options.binary_location = "/usr/bin/google-chrome"
-    service = Service("/usr/bin/chromedriver")
+    # 🟢 Explicitly set Chrome binary & Chromedriver path
+    chrome_options.binary_location = "/usr/local/bin/google-chrome"
+    service = Service("/usr/local/bin/chromedriver")
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
