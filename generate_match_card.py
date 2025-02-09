@@ -35,23 +35,38 @@ def install_chrome_and_driver():
         # 🟢 Use shutil.copytree() to copy the whole directory
         shutil.copytree("chrome/opt/google/chrome", chrome_path, dirs_exist_ok=True)
 
-    # 🟢 Install ChromeDriver
-    if not os.path.exists(chromedriver_path):
-        print("🔹 Downloading ChromeDriver...")
-        chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
-        chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
+# 🟢 Install ChromeDriver
+if not os.path.exists(chromedriver_path):
+    print("🔹 Downloading ChromeDriver...")
+    chromedriver_url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
+    chromedriver_zip = os.path.join(install_dir, "chromedriver_linux64.zip")
 
-        response = requests.get(chromedriver_url, stream=True)
-        with open(chromedriver_zip, "wb") as file:
-            for chunk in response.iter_content(chunk_size=8192):
-                file.write(chunk)
+    # Download the ChromeDriver zip file
+    response = requests.get(chromedriver_url, stream=True)
+    with open(chromedriver_zip, "wb") as file:
+        for chunk in response.iter_content(chunk_size=8192):
+            file.write(chunk)
 
-        print("🔹 Extracting ChromeDriver...")
-        with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
-            zip_ref.extractall(install_dir)
+    print("🔹 Extracting ChromeDriver...")
+    extracted_dir = os.path.join(install_dir, "chromedriver_extracted")
+    os.makedirs(extracted_dir, exist_ok=True)  # Ensure extraction directory exists
 
-        shutil.copy(os.path.join(install_dir, "chromedriver"), chromedriver_path)  # Fix cross-device move
+    # Extract ChromeDriver properly
+    with zipfile.ZipFile(chromedriver_zip, "r") as zip_ref:
+        zip_ref.extractall(extracted_dir)
+
+    # Find the extracted ChromeDriver binary
+    extracted_chromedriver = os.path.join(extracted_dir, "chromedriver")
+
+    if os.path.exists(extracted_chromedriver):
+        # Move ChromeDriver to the final path only if it does not already exist
+        shutil.move(extracted_chromedriver, chromedriver_path)
         os.chmod(chromedriver_path, 0o755)  # Make executable
+        print("✅ ChromeDriver installed successfully!")
+    else:
+        print("❌ Error: ChromeDriver was not extracted properly.")
+else:
+    print("✅ ChromeDriver already exists. Skipping download.")
 
 # 🚀 Set up WebDriver
 def get_webdriver():
