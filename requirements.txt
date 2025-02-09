@@ -6,3 +6,4 @@ selenium
 webdriver-manager
 html2image
 pillow
+firefox
